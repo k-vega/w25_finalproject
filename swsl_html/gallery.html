@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css" />
+        <link rel="stylesheet" type="text/css" href="/swsl_css/style.css">
+        <link rel="icon" type="image/x-icon" href="/media/Brain only.png">
+        <title>Gallery</title>
+    </head>
+    <body>
+        <header>
+            <!--<h1>Southwest STEM Labs</h1>-->
+            <img src="/media/Banner white background.png" alt="Southwest STEM Labs brain logo and text">
+            <a class = "skip-link" href = "#main">Skip to Main Content</a>
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </header>
+        <div class="container">
+            <nav>
+                <ul class = "nav">
+                    <li class = "item"><a href="home.html">Home</a></li>
+                    <li class = "item"><a href="programs.html">Our Programs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main id = "main">
+            <section class = "image-gallery">
+                <h2>Check Out More Of What We Do!</h2>
+                <div>
+                    <img class = "imgslide" src="/media/pic1.jpg" alt="Three Students working on computer aided design">
+                    <img class = "imgslide" src="/media/pic2.jpg" alt="Four Students sketching out design for painting">
+                    <img class = "imgslide" src="/media/pic3.jpg" alt="Student doing a virtual welding simulator">
+                    <img class = "imgslide" src="/media/pic4.jpg" alt="Classroom full of students looking at the front board">
+                    <img class = "imgslide" src="/media/pic5.jpg" alt="Student sketching on digital drawing device">
+                    <img class = "imgslide" src="/media/pic6.jpg" alt="Students dressed up in their robotic team spirit">
+                    <img class = "imgslide" src="/media/pic7.jpg" alt="Students working on a small model house">
+                    <img class = "imgslide" src="/media/pic8.jpg" alt="Students doing a cement arts and craft project">
+                    <img class = "imgslide" src="/media/pic9.jpg" alt="Four students doing a battery experiment">
+                    <img class = "imgslide" src="/media/pic10.jpg" alt="Teacher giving a slideshow presentation to class of students">
+                    <img class = "imgslide" src="/media/pic11.jpg" alt="Students doing science experiment">
+                    <img class = "imgslide" src="/media/pic12.jpg" alt="Student working on laptop to transfer information to small robot">
+                    <img class = "imgslide" src="/media/pic13.jpg" alt="Instrutor letting student touch static metal ball figure">
+                    <img class = "imgslide" src="/media/pic14.jpg" alt="Students working in a dentist lab">
+                    <img class = "imgslide" src="/media/pic15.jpg" alt="Three students making bracelets outside">
+                    <img class = "imgslide" src="/media/pic16.jpg" alt="Park ranger helping students catch fish">
+                    <img class = "imgslide" src="/media/pic17.jpg" alt="Teacher showing students a magnet around the table">
+                    <img class = "imgslide" src="/media/pic18.jpg" alt="Student measuring ingridents ">
+                    <img class = "imgslide" src="/media/pic19.jpg" alt="Students wearing lab coats and goggles writing down notes">
+                    <img class = "imgslide" src="/media/pic20.jpg" alt="Student wearing goggles while looking at ballon experiment">
+                </div>
+            </section>
+        </main>
+        <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <img class="lightbox-content" id="lightbox-img">
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <script src="/swsl_js/swsl.js"></script> 
+    </body>
+</html>

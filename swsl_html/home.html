@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/html5reset.css" />
+        <link rel="stylesheet" type="text/css" href="/swsl_css/style.css">
+        <link rel="icon" type="image/x-icon" href="/media/Brain only.png">
+        <title>Southwest STEM Labs</title>
+    </head>
+    <body>
+        <header>
+            <!--<h1>Southwest STEM Labs</h1>-->
+            <img src="/media/Banner white background.png" alt="Southwest STEM Labs brain logo and text">
+            <a class = "skip-link" href = "#main">Skip to Main Content</a>
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </header>
+        <div class="container">
+            <nav>
+                <ul class = "nav">
+                    <li class = "item"><a href="programs.html">Our Programs</a></li>
+                    <li class = "item"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main id="main">
+            <div id = "mission">
+                <h2>Mission</h2>
+                <p>To empower individuals in STEM education, fostering critical thinking, creativity, and compassion through mentorship,
+                    to promote personal fulfillment and enrich community wellbeing.
+                </p>
+                <video width="500" height="500" autoplay loop muted>
+                    <source src="/media/swslcover.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <div class = "navy"></div>
+        </main>
+        <footer>
+            <section id="contact">
+              <h2>Contact Us</h2>
+              <form id="inquiry-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+          
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+          
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+          
+                <button type="submit">Send Message</button>
+              </form>
+              <p id="form-status"></p>
+            </section>
+          </footer>
+        <script src="/swsl_js/swsl.js"></script> 
+    </body>
+</html>
